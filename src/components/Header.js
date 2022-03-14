@@ -3,7 +3,7 @@ import Button from "./Button"
 
 const Header = () => {
     const onClick = () => {
-        console.log("Clicking ADD")
+        console.log("ADD Users")
     }
   return (
     <header className='header'>

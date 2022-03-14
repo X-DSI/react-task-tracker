@@ -10,6 +10,10 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+h1{
+  color: green;
+}
+
 .container {
   max-width: 500px;
   margin: 30px auto;
