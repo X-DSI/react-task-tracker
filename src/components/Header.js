@@ -15,6 +15,7 @@ const Header = ({ title, onAdd, showAdd }) => {
           onClick={onAdd}
         />
       )}
+      <button className='btn1'>Dark</button>
     </header>
   )
 }
