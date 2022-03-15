@@ -27,7 +27,11 @@ body {
   margin-bottom: 20px;
 }
 
-h1{
+.header h1{
+  color: red;
+}
+
+.ptag{
   color: red;
 }
 

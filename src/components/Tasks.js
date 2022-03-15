@@ -1,6 +1,7 @@
 import Task from './Task'
 
 const Tasks = ({ tasks, onDelete, onToggle }) => {
+  console.log('task', tasks);
   return (
     <>
       {tasks.map((task, index) => (

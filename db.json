@@ -13,10 +13,10 @@
       "reminder": true
     },
     {
-      "text": "Read Bible",
-      "day": "March 15 at 10am",
+      "text": "Meeting with Jerome",
+      "day": "Today",
       "reminder": true,
-      "id": 3
+      "id": 4
     }
   ]
 }
