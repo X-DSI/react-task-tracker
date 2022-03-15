@@ -7,7 +7,7 @@ const Header = ({ title, onAdd, showAdd }) => {
 
   return (
     <header className='header'>
-      <h1>Task Tracker</h1>
+      <h1>{title}</h1>
       {location.pathname === '/' && (
         <Button
           color={showAdd ? 'red' : 'black'}
@@ -19,9 +19,9 @@ const Header = ({ title, onAdd, showAdd }) => {
   )
 }
 
-// Header.defaultProps = {
-//   title: 'Task Tracker',
-// }
+Header.defaultProps = {
+  title: 'Task Tracker',
+}
 
 Header.propTypes = {
   title: PropTypes.string.isRequired,
